@@ -1,13 +1,10 @@
 #include<stdio.h>
 /*
- * Entry point of the program
- *returns 0
-*/
-int main(void)
-/*Entry point
- *
+ * main: Entry point
+ * Description:Uses puts to output a string of characters
  */
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	return(0);
 }
