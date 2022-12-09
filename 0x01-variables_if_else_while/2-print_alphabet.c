@@ -12,4 +12,5 @@ while (character <= 'z')
 putchar(character);
 character++;
 }
+putchar('\n');
 }
