@@ -14,6 +14,7 @@ character++;
 }
 character = 'A';
 while (character <= 'Z')
+{
 putchar(character);
 character++;
 }
