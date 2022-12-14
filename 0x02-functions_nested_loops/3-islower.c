@@ -4,7 +4,7 @@
  * _islower - prints 1 if c is lowercase and 0 otherwise
  * @c: first parameter
  *
- * Description: prints 1 if c is lowercase and 0 otherwise 
+ * Description: prints 1 if c is lowercase and 0 otherwise
  * Return: 0
  */
 
