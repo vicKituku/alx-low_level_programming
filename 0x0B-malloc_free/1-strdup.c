@@ -20,6 +20,11 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	s = malloc((size + 1) * sizeof(char));
+	if (s == NULL)
+	{
+		printf("failed to allocate memory\n");
+		return (1);
+	}
 	while (str[i] != '\0')
 	{
 		s[i] = str[i];
