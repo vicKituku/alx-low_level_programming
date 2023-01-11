@@ -2,15 +2,16 @@
 /**
  * create_array - creates arrays of char
  * Return: pointer to an array of char
- * @size -size of the array
- * @c - char
+ * @size: size of the array
+ * @c: char
  */
 
-char* create_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
-	int i;
+	unsigned int i;
 	char *s;
-	s = malloc((size+1)*sizeof(char));
+
+	s = malloc((size + 1) * sizeof(char));
 	if (size == 0)
 		return (NULL);
 	if (s == NULL)
@@ -23,5 +24,5 @@ char* create_array(unsigned int size, char c)
 		i++;
 	}
 	s[i] = '\0';
-	return s;
+	return (s);
 }
