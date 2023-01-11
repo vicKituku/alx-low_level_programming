@@ -29,7 +29,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		strout[k] = s1[k];
 	}
-	j = ph;
+	ph = j;
 	for (j = 0; j < ph; j++, k++)
 		strout[k] = s2[j];
 	return (strout);
