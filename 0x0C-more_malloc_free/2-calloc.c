@@ -5,7 +5,7 @@
  * @nmemb: number of members for the array
  * @size: size of each member in bytes
  */
-void *_calloc(unsigned int nmemb, unsigned int size);
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	int *t;
 
