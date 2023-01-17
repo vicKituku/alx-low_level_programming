@@ -1,13 +1,13 @@
 #ifndef _DOG_H_
 #define _DOG_H_
 /**
- * struct dogo - define new type struct dog
+ * struct dog - define new type struct dog
  * @name: Name of dog
  * @age: Age of dog
  * @owner: owner of dog
  */
 
-typedef struct dog
+struct dog
 {
 	char *name;
 	float age;
