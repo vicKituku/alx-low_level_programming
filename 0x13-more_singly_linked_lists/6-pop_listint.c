@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdlib.h>
 /**
  * pop_listint - Delet the first node
  * @head: pointer to the first node
@@ -14,6 +15,7 @@ int pop_listint(listint_t **head)
 		h = *head;
 		n = h->n;
 		*head = h->next;
+		free(h);
 		return (n);
 	}
 	return (0);
