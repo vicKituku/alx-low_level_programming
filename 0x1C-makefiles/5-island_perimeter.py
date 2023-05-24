@@ -20,8 +20,8 @@ def island_perimeter(grid):
         for y in range(len_column):
             if grid[x][y] == 1:
                 perimeter += 4
-                if x! = 0 and grid[x - 1][y] == 1:
+                if x != 0 and grid[x - 1][y] == 1:
                     connections += 1
-                if y! = 0 and grid[x][y - 1] == 1:
+                if y != 0 and grid[x][y - 1] == 1:
                     connections += 1
     return (perimeter - (connections * 2))
